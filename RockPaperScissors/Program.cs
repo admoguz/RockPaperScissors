@@ -44,7 +44,7 @@ namespace RockPaperScissors
                 }
                 Console.WriteLine($"Your choose {playerMove}");
                 Random rnd = new Random();
-                int random = rnd.Next(3);
+                int random = rnd.Next(3); // 0,1,2
                 string computerMove = "";
                 switch (random)
                 {
